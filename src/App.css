@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 10vmin;
   pointer-events: none;
 }
 
@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: black;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,6 +22,10 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.App-log {
+  margin-bottom: 40px;
 }
 
 .App-link {
@@ -50,4 +54,25 @@
   }
 
   
+}
+
+.mobile-image {
+  display: none;
+}
+
+
+@media screen and (max-width: 760px) {
+
+  .mobile-image {
+    display: block;
+    width: 90%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .am-dis {
+    display: none;
+  }
+
+
 }
